@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    text-align: center;
+}
+
+.btn-info{
+    outline: none;
+    background-color: #28FFBF;
+}
+
+.btn:hover{
+    background-color: #04c48a;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 8%;
+}
+.title-image{
+    width: 115%;
+}
+
+
+.big-heading{
+    color: #213e3b;
+}
+.title{
+    padding: 7% 12%;
+    background-color: #BCFFB9;
+}
+.buttoninfo{
+    border: 0;
+    border-radius: 20px;
+}
+.money:hover{
+    color: #000;
+    text-decoration: none;
+}
+.money{
+    color: #000;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#body-content{
+    padding: 0px 15px 0px;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    background-color: #28FFBF;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #BCFFB9;
+}
+
+.big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+footer{
+    padding: 20px 76px 25px;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+    color: black;
+}
+.white-section{
+    background-color: #28FFBF;
+}
+
+@media  (max-width : 1020px){
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
